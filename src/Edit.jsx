@@ -6,13 +6,13 @@ import { useNavigate, useParams } from "react-router-dom";
 export function Edit({ studentDetails }) {
   const navigate = useNavigate();
   const { id } = useParams();
-  console.log(id);
-  console.log(studentDetails[id].name);
+  // console.log(id);
+  // console.log(studentDetails[id].name);
 
-  const [name, setName] = useState("");
-  const [blood, setBlood] = useState("");
-  const [department, setDepartment] = useState("");
-  const [dob, setDob] = useState("");
+  // const [name, setName] = useState("");
+  // const [blood, setBlood] = useState("");
+  // const [department, setDepartment] = useState("");
+  // const [dob, setDob] = useState("");
 
   return (
     <div>
